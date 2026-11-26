@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Khan Live</title>
+  <meta name="description" content="Official Privacy Policy and Data Deletion Policy for Khan Live mobile application." />
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --surface: #ffffff;
+      --text: #1e293b;
+      --muted: #64748b;
+      --border: #e2e8f0;
+      --primary: #7c3aed;
+      --primary-soft: #f5f3ff;
+      --accent: #0f172a;
+      --danger-bg: #fef2f2;
+      --danger-border: #fecaca;
+      --danger-text: #991b1b;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      font-size: 16px;
+    }
+
+    header {
+      background: linear-gradient(135deg, #4c1d95 0%, #7c3aed 55%, #ec4899 100%);
+      color: #ffffff;
+      padding: 48px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+    }
+
+    header p {
+      font-size: 1rem;
+      opacity: 0.92;
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    .badge {
+      display: inline-block;
+      margin-top: 16px;
+      padding: 6px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.18);
+      font-size: 0.875rem;
+      font-weight: 600;
+    }
+
+    main {
+      max-width: 920px;
+      margin: -24px auto 48px;
+      padding: 0 16px;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 36px 32px;
+      box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
+    }
+
+    .toc {
+      background: var(--primary-soft);
+      border: 1px solid #ddd6fe;
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin-bottom: 32px;
+    }
+
+    .toc h2 {
+      font-size: 1.05rem;
+      color: var(--primary);
+      margin: 0 0 12px;
+      border: none;
+      padding: 0;
+    }
+
+    .toc ol {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 6px 24px;
+      padding-left: 20px;
+    }
+
+    .toc a {
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.95rem;
+    }
+
+    .toc a:hover {
+      color: var(--primary);
+      text-decoration: underline;
+    }
+
+    section {
+      margin-bottom: 32px;
+      scroll-margin-top: 24px;
+    }
+
+    h2 {
+      font-size: 1.35rem;
+      color: var(--accent);
+      margin-bottom: 12px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid var(--border);
+    }
+
+    h3 {
+      font-size: 1.05rem;
+      color: var(--accent);
+      margin: 18px 0 8px;
+    }
+
+    p {
+      margin-bottom: 12px;
+    }
+
+    ul, ol {
+      margin: 8px 0 16px 22px;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+      font-size: 0.94rem;
+    }
+
+    th, td {
+      text-align: left;
+      padding: 12px 14px;
+      border: 1px solid var(--border);
+      vertical-align: top;
+    }
+
+    th {
+      background-color: #f1f5f9;
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .highlight-box {
+      background: #f8fafc;
+      border-left: 4px solid var(--primary);
+      padding: 16px 18px;
+      border-radius: 0 10px 10px 0;
+      margin: 16px 0;
+    }
+
+    .warning-box {
+      background: var(--danger-bg);
+      border: 1px solid var(--danger-border);
+      color: var(--danger-text);
+      padding: 16px 18px;
+      border-radius: 10px;
+      margin: 16px 0;
+    }
+
+    .contact-box {
+      background: var(--primary-soft);
+      border: 1px solid #ddd6fe;
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin-top: 12px;
+    }
+
+    a {
+      color: var(--primary);
+    }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.9rem;
+      padding: 0 16px 40px;
+    }
+
+    @media (max-width: 640px) {
+      header {
+        padding: 36px 16px;
+      }
+      header h1 {
+        font-size: 1.75rem;
+      }
+      .card {
+        padding: 24px 18px;
+      }
+      table, thead, tbody, th, td, tr {
+        display: block;
+      }
+      thead {
+        display: none;
+      }
+      tr {
+        margin-bottom: 12px;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        overflow: hidden;
+      }
+      td {
+        border: none;
+        border-bottom: 1px solid var(--border);
+      }
+      td:last-child {
+        border-bottom: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Privacy Policy</h1>
+    <p>Khan Live — Live Audio &amp; Video Streaming Platform</p>
+    <div class="badge">Effective Date: November 26, 2026 &bull; Last Updated: November 26, 2026</div>
+  </header>
+
+  <main>
+    <div class="card">
+
+      <p>
+        Welcome to <strong>Khan Live</strong> ("we," "our," or "us"). We respect your privacy and are committed to protecting
+        your personal data. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you
+        use the <strong>Khan Live</strong> mobile application and related services (collectively, the "Service").
+      </p>
+      <p>
+        By creating an account or using Khan Live, you agree to the collection and use of information in accordance with this
+        Privacy Policy. If you do not agree with the terms of this Privacy Policy, please do not access or use the Service.
+      </p>
+
+      <nav class="toc" aria-label="Table of Contents">
+        <h2>Table of Contents</h2>
+        <ol>
+          <li><a href="#information-we-collect">Information We Collect</a></li>
+          <li><a href="#device-permissions">Device Permissions We Request</a></li>
+          <li><a href="#face-beauty-processing">Face Beauty &amp; AR Effects (On-Device)</a></li>
+          <li><a href="#how-we-use-data">How We Use Your Information</a></li>
+          <li><a href="#third-party-services">Third-Party Services &amp; Data Sharing</a></li>
+          <li><a href="#virtual-economy">Payments, Virtual Currency &amp; Transactions</a></li>
+          <li><a href="#ugc-safety">User-Generated Content &amp; Community Safety</a></li>
+          <li><a href="#child-safety">Children's Privacy &amp; Child Safety (CSAE Policy)</a></li>
+          <li><a href="#data-security">Data Security &amp; Retention</a></li>
+          <li><a href="#account-deletion">Account &amp; Data Deletion</a></li>
+          <li><a href="#your-rights">Your Privacy Rights</a></li>
+          <li><a href="#changes">Changes to This Privacy Policy</a></li>
+          <li><a href="#contact-us">Contact Us</a></li>
+        </ol>
+      </nav>
+
+      <!-- 1. Information We Collect -->
+      <section id="information-we-collect">
+        <h2>1. Information We Collect</h2>
+        <p>We collect the following categories of information to provide and improve Khan Live:</p>
+
+        <h3>a. Account &amp; Profile Information</h3>
+        <ul>
+          <li><strong>Registration Data:</strong> Email address, username, password (securely managed via Firebase Authentication), or Google account profile details if you sign in with Google.</li>
+          <li><strong>Optional Profile Details:</strong> Display name, profile picture, cover photo, bio, gender, date of birth, country, phone number, and WhatsApp contact (if you voluntarily provide them).</li>
+          <li><strong>Account Identifiers &amp; Roles:</strong> Unique User ID, session ID, online/last-seen status, and role information (e.g., User, Host, Agency, BD, or Reseller).</li>
+        </ul>
+
+        <h3>b. User-Generated Content (UGC) &amp; Live Interactions</h3>
+        <ul>
+          <li><strong>Live Audio &amp; Video Streams:</strong> Real-time audio and video transmitted when you broadcast or join a live room.</li>
+          <li><strong>Chat &amp; Social Activity:</strong> Public room chat messages, emojis, room titles/covers, follower/following lists, friend lists, blocked users, and gift interactions.</li>
+          <li><strong>Uploaded Media:</strong> Images or files you choose to upload for your profile avatar, cover image, or room cover.</li>
+        </ul>
+
+        <h3>c. Virtual Currency &amp; Transaction Records</h3>
+        <ul>
+          <li>Records of virtual coins, diamonds, virtual gifts sent/received, store item purchases, and host/agency commission or reward histories.</li>
+        </ul>
+
+        <h3>d. Device, Technical &amp; Security Data</h3>
+        <ul>
+          <li><strong>Device Identifiers:</strong> Device ID used strictly for account security, fraud prevention, and enforcing device-level bans against abusive users.</li>
+          <li><strong>Push Notification Tokens:</strong> Firebase Cloud Messaging (FCM) tokens to deliver notifications.</li>
+          <li><strong>Network &amp; App Integrity Data:</strong> Internet connectivity state and Firebase App Check attestation tokens to protect against bots, tampering, and unauthorized API access.</li>
+          <li><strong>Local Storage:</strong> Session preferences and cached settings stored locally on your device.</li>
+        </ul>
+      </section>
+
+      <!-- 2. Device Permissions -->
+      <section id="device-permissions">
+        <h2>2. Device Permissions We Request</h2>
+        <p>Khan Live requests only the device permissions necessary for its core live-streaming and social features:</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Permission</th>
+              <th>Purpose</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Camera</strong></td>
+              <td>Used to broadcast live video streams and apply real-time on-device beauty filters and AR stickers during video sessions.</td>
+            </tr>
+            <tr>
+              <td><strong>Microphone &amp; Audio Settings</strong></td>
+              <td>Used for voice communication in live audio/video rooms, hosting broadcasts, and controlling audio routing.</td>
+            </tr>
+            <tr>
+              <td><strong>Bluetooth</strong></td>
+              <td>Used to connect wireless headphones, earbuds, and Bluetooth microphones during live streaming.</td>
+            </tr>
+            <tr>
+              <td><strong>Foreground Service (Camera / Microphone / Media Playback)</strong></td>
+              <td>Keeps your live audio/video session active without interruption while you multitask or lock your screen.</td>
+            </tr>
+            <tr>
+              <td><strong>Photos / Media / File Picker</strong></td>
+              <td>Used when you voluntarily choose a photo from your device to set as your profile picture, cover photo, or live room cover.</td>
+            </tr>
+            <tr>
+              <td><strong>Notifications</strong></td>
+              <td>Used to alert you about live broadcasts from hosts you follow, gifts, account activity, and important service announcements.</td>
+            </tr>
+            <tr>
+              <td><strong>Internet &amp; Network State</strong></td>
+              <td>Required to connect to streaming servers, load content, and monitor connection stability.</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>You can manage or revoke any of these permissions at any time through your device's system settings. Please note that revoking certain permissions (such as Camera or Microphone) may limit live-streaming features.</p>
+      </section>
+
+      <!-- 3. Face Beauty & AR Processing -->
+      <section id="face-beauty-processing">
+        <h2>3. Face Beauty &amp; AR Effects (On-Device Processing)</h2>
+        <div class="highlight-box">
+          <p style="margin-bottom: 0;">
+            <strong>No Biometric Data Collection:</strong> Khan Live includes optional real-time beauty filters, virtual makeup,
+            face reshaping, and AR stickers powered by on-device GPU processing and MediaPipe Face Landmarker. All facial landmark
+            detection occurs <strong>strictly locally on your device in real time</strong>. We do <strong>not</strong> extract,
+            store, transmit, sell, or share facial geometry, faceprints, or biometric identifiers on our servers or with any third party.
+            Temporary frame buffers are immediately discarded after each video frame is rendered.
+          </p>
+        </div>
+      </section>
+
+      <!-- 4. How We Use Your Information -->
+      <section id="how-we-use-data">
+        <h2>4. How We Use Your Information</h2>
+        <p>We use the collected information to:</p>
+        <ul>
+          <li>Create, authenticate, and manage your Khan Live account.</li>
+          <li>Provide real-time audio and video live streaming, chat, gifting, leaderboards, and interactive room features.</li>
+          <li>Process virtual currency purchases, gift transfers, and host/agency reward tracking.</li>
+          <li>Send push notifications and important service or security updates.</li>
+          <li>Detect, prevent, and respond to fraud, spam, harassment, unauthorized access, and violations of our Terms of Service.</li>
+          <li>Maintain app stability, troubleshoot technical issues, and improve user experience.</li>
+          <li>Comply with applicable legal obligations and law enforcement requests.</li>
+        </ul>
+      </section>
+
+      <!-- 5. Third-Party Services -->
+      <section id="third-party-services">
+        <h2>5. Third-Party Services &amp; Data Sharing</h2>
+        <p>
+          We do <strong>not</strong> sell your personal data to third parties. We only share data with trusted infrastructure
+          and service providers necessary to operate Khan Live:
+        </p>
+        <ul>
+          <li><strong>Google Firebase</strong> (Authentication, Cloud Firestore, Realtime Database, Cloud Functions, Cloud Messaging, App Check) — for account login, database hosting, notifications, and app security. (<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a>)</li>
+          <li><strong>Google Sign-In</strong> — for optional one-tap sign-in using your Google account.</li>
+          <li><strong>LiveKit (WebRTC) &amp; Dedicated VPS Infrastructure</strong> — for low-latency real-time audio/video streaming, backend APIs, PostgreSQL data storage, and media file hosting.</li>
+          <li><strong>Stripe</strong> — for secure processing of in-app payment transactions where enabled. (<a href="https://stripe.com/privacy" target="_blank" rel="noopener noreferrer">Stripe Privacy Policy</a>)</li>
+          <li><strong>External Apps (e.g., WhatsApp)</strong> — if you tap a support or contact link that opens WhatsApp or a web browser, your interaction with that external service is governed by its respective privacy policy.</li>
+        </ul>
+        <p>
+          We may also disclose information if required by law, court order, or governmental regulation, or when necessary to protect
+          the rights, safety, and security of our users and the public.
+        </p>
+      </section>
+
+      <!-- 6. Payments & Virtual Economy -->
+      <section id="virtual-economy">
+        <h2>6. Payments, Virtual Currency &amp; Transactions</h2>
+        <p>
+          When you purchase virtual coins or other digital items, payments are processed securely through authorized payment
+          processors (such as Stripe or Google Play Billing, where applicable). <strong>Khan Live does not collect or store your
+          full credit/debit card numbers or banking credentials</strong> on our servers. We only retain transaction metadata
+          (such as transaction ID, amount, timestamp, and virtual currency credited) for accounting, dispute resolution, and fraud prevention.
+        </p>
+      </section>
+
+      <!-- 7. UGC & Community Safety -->
+      <section id="ugc-safety">
+        <h2>7. User-Generated Content &amp; Community Safety</h2>
+        <p>
+          Because Khan Live is a live social platform, information you share publicly—such as your username, profile photo, bio,
+          live audio/video streams, and public room chat messages—can be viewed by other users.
+        </p>
+        <ul>
+          <li><strong>Moderation &amp; Safety Tools:</strong> Users can block other users and report abusive behavior, inappropriate streams, or policy violations.</li>
+          <li><strong>Enforcement:</strong> We reserve the right to review reported content, suspend or permanently ban offending accounts/devices, and remove content that violates our community standards.</li>
+        </ul>
+      </section>
+
+      <!-- 8. Children's Privacy & CSAE -->
+      <section id="child-safety">
+        <h2>8. Children's Privacy &amp; Child Safety (CSAE Policy)</h2>
+        <div class="warning-box">
+          <strong>Strict 18+ Policy &amp; Zero Tolerance for Child Exploitation:</strong><br />
+          Khan Live is intended strictly for users aged <strong>18 years and older</strong>. We do not knowingly collect personal
+          information from children under 18 (or under 13 in any jurisdiction). If you are a parent or guardian and believe your child
+          has provided personal data to Khan Live, please contact us immediately so we can delete the account and data.
+        </div>
+        <p>
+          Khan Live maintains a strict <strong>zero-tolerance policy against Child Sexual Abuse and Exploitation (CSAE)</strong>
+          and Child Sexual Abuse Material (CSAM). Any account involved in grooming, exploiting, or sharing harmful content involving
+          minors will be permanently banned without notice, and relevant details will be reported to the National Center for Missing
+          &amp; Exploited Children (NCMEC) and appropriate law enforcement authorities.
+        </p>
+      </section>
+
+      <!-- 9. Data Security & Retention -->
+      <section id="data-security">
+        <h2>9. Data Security &amp; Retention</h2>
+        <ul>
+          <li><strong>Encryption in Transit:</strong> All communications between the Khan Live app and our servers are encrypted using industry-standard HTTPS/TLS, and live WebRTC audio/video streams are encrypted using DTLS/SRTP.</li>
+          <li><strong>Access Controls:</strong> Backend databases and storage are protected with authentication rules, role-based access controls, and Firebase App Check.</li>
+          <li><strong>Retention:</strong> We retain your personal data only for as long as your account remains active or as needed to provide the Service, resolve disputes, enforce bans, and comply with legal or financial record-keeping obligations.</li>
+        </ul>
+      </section>
+
+      <!-- 10. Account & Data Deletion -->
+      <section id="account-deletion">
+        <h2>10. Account &amp; Data Deletion</h2>
+        <p>
+          You have the right to request the permanent deletion of your Khan Live account and associated personal data at any time.
+        </p>
+        <h3>How to Request Account Deletion</h3>
+        <ol>
+          <li><strong>Via Email Request:</strong> Send an email to <a href="mailto:support@khanlive.com"><strong>support@khanlive.com</strong></a> with the subject line <code>Account Deletion Request — Khan Live</code>.</li>
+          <li>Include your registered <strong>Email Address</strong> and <strong>Username / User ID</strong> so we can verify ownership of the account.</li>
+          <li>Once verified, we will process your deletion request within <strong>7 to 30 days</strong> and send you a confirmation email.</li>
+        </ol>
+        <h3>What Data Is Deleted vs. Retained</h3>
+        <ul>
+          <li><strong>Deleted Data:</strong> Your login credentials, profile details (name, bio, photos, phone/WhatsApp), social connections (followers/friends), FCM tokens, and active session data are permanently deleted.</li>
+          <li><strong>Temporarily Retained Data:</strong> Limited financial transaction records, commission/payout logs, or moderation/ban records may be retained only as required by applicable law, tax/accounting regulations, or fraud/abuse prevention.</li>
+        </ul>
+      </section>
+
+      <!-- 11. Your Rights -->
+      <section id="your-rights">
+        <h2>11. Your Privacy Rights</h2>
+        <p>Depending on your region (including GDPR and CCPA jurisdictions), you may have the right to:</p>
+        <ul>
+          <li>Access a copy of the personal data we hold about you.</li>
+          <li>Correct inaccurate or incomplete profile information directly in the app or by contacting us.</li>
+          <li>Request deletion of your account and personal data.</li>
+          <li>Withdraw consent for optional permissions (Camera, Microphone, Bluetooth, Notifications) via device settings.</li>
+          <li>Object to or restrict certain processing activities where applicable by law.</li>
+        </ul>
+      </section>
+
+      <!-- 12. Changes -->
+      <section id="changes">
+        <h2>12. Changes to This Privacy Policy</h2>
+        <p>
+          We may update this Privacy Policy from time to time to reflect changes in our app features, legal requirements, or
+          platform policies. When we make material updates, we will revise the "Last Updated" date at the top of this page and,
+          where appropriate, notify you within the app. Continued use of Khan Live after updates take effect constitutes your
+          acceptance of the revised policy.
+        </p>
+      </section>
+
+      <!-- 13. Contact Us -->
+      <section id="contact-us">
+        <h2>13. Contact Us</h2>
+        <p>If you have any questions, concerns, child safety reports, or privacy requests regarding Khan Live, please contact us:</p>
+        <div class="contact-box">
+          <p style="margin-bottom: 6px;"><strong>App Name:</strong> Khan Live</p>
+          <p style="margin-bottom: 6px;"><strong>Developer / Organization:</strong> Khan Live Team</p>
+          <p style="margin-bottom: 6px;"><strong>Privacy &amp; Support Email:</strong> <a href="mailto:support@khanlive.com">support@khanlive.com</a></p>
+          <p style="margin-bottom: 0;"><strong>Response Time:</strong> We aim to respond to all privacy and safety inquiries within 48–72 hours.</p>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2026 Khan Live. All rights reserved.
+  </footer>
+
+</body>
+</html>
